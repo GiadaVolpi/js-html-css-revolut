@@ -66,6 +66,7 @@ header {
 
 .menu-item {
     margin-right: 30px;
+    position: relative;
 }
 
 .menu-item i {
@@ -86,4 +87,15 @@ header {
 
 .menu-item:hover a {
     color: black;
+}
+
+.dropdown-menu {
+    position: absolute;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+    padding: 5px 20px;
+}
+
+.dropdown-menu-item {
+    margin: 15px 0;
 }
