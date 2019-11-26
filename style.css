@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    height: 100%;
+    margin: 0 40px;
+}
+
+.header-left a {
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.header-right {
+    width: 70%;
+    height: 100%;
+    background-color: lightblue;
+}
