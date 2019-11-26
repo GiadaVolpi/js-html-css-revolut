@@ -6,6 +6,12 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #939393;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
 }
 
 header {
@@ -23,18 +29,61 @@ header {
 
 .header-left img {
     height: 100%;
-    margin: 0 40px;
+    margin-right: 20px;
 }
 
 .header-left a {
     margin-left: 20px;
     text-transform: uppercase;
+}
+
+.header-left a, .header-right a {
     text-decoration: none;
+    color: #939393;
+}
+
+.header-left a:hover {
     color: black;
 }
 
 .header-right {
     width: 70%;
     height: 100%;
-    background-color: lightblue;
+}
+
+.right-menu {
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.menu-item i {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.menu-item button {
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #d2007e;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-item:hover a {
+    color: black;
 }
